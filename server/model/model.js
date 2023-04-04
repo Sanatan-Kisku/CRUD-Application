@@ -36,12 +36,10 @@ var schema = new mongoose.Schema({
     unique: true
   },
   created_time: {
-    type: time,
-    required: true,
+    type: String,
   },
   created_date: {
-    type: Date,
-    required: true,
+    type: String,
   }
 
 })
